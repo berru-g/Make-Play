@@ -26,7 +26,7 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
 }
@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     color: #0e2431;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     padding: 0.7rem;
     background-color: white;
 }
@@ -73,8 +73,8 @@ body {
 
 .nav-container .hamburger-lines {
     display: block;
-    height: 26px;
-    width: 32px;
+    height: 34px;
+    width: 40px;
     position: absolute;
     top: 17px;
     left: 20px;
@@ -130,7 +130,7 @@ body {
     position: absolute;
     top: 5px;
     right: 15px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #0e2431;
 }
 
@@ -139,15 +139,19 @@ body {
 }
 
 .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
-    transform: rotate(45deg);
+    transform: rotate(24deg);
 }
 
 .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
-    transform: scaleY(0);
+    /*margin-left: -40px;*/
+    display: none;
 }
 
+
+/*scaleX(4)*/
+
 .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
-    transform: rotate(-45deg);
+    transform: rotate(-24deg);
 }
 
 .nav-container input[type="checkbox"]:checked~.logo {
@@ -223,7 +227,7 @@ html {
 a {
     color: #2f2ff9;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 8px;
     text-decoration: none;
     background: #fff;
     padding: 20px 5px;
@@ -237,7 +241,11 @@ a {
 
 a:hover,
 a:focus {
-    text-decoration: underline;
+    text-decoration: line-through;
+}
+
+h2 {
+    text-align: center;
 }
 
 img {
@@ -270,6 +278,9 @@ footer {
     border-top: 1px solid #e2e2e2;
 }
 
+
+/*
+
 .gallery ul {
     list-style: none;
     margin: 0;
@@ -284,6 +295,7 @@ footer {
     flex: 1 1 50%;
     padding: 12px;
 }
+*/
 
 .wrapper {
     display: -webkit-box;
