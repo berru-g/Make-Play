@@ -19,7 +19,7 @@ root {
 }
 
 body {
-    background-color: #0024666c;
+    background-color: #1b1b1b;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -50,7 +50,7 @@ body {
 
 .navbar .menu-items {
     display: flex;
-    background-color: #118ab2, opacity(0.5);
+    background-color: #118ab2, opacity(0.8);
     color: #118ab2;
 }
 
