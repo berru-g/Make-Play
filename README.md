@@ -17,7 +17,7 @@
 *Microcontroller usb midi lowcost To play on Ableton, Arena or any other music or video creation software. 
 Microcontrôleur usb midi lowcost Pour jouer sur Ableton, Arena ou tout autre logiciel de création musicale ou vidéo.*
 
-<h4>Plan & code of my <a href="https://www.hackster.io/gleberruyer/midi-pad-80c178">first prototyp</a>, based on Arduino.</h4>
+<h5>Plan & code of my <a href="https://www.hackster.io/gleberruyer/midi-pad-80c178">first prototyp</a>, based on Arduino.</h5>
 
 
 ## Options
