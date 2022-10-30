@@ -4,14 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>make&amp;play PLAN</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
 <body class="stackedit">
   <div class="stackedit__html"><h1 align="center">
-  <a href="https://berru-g.github.io/Make-Play/"><img src="https://github.com/berru-g/Make-Play/blob/main/src/dod.gif?raw=true
-    " width="500px" title="     Revenir au site"></a>
+  <a href="https://berru-g.github.io/Make-Play/"><img src="https://github.com/berru-g/Make-Play/blob/main/src/plan.png?raw=true" width="350px" title="     Revenir au site"></a>
   <br>Make &amp; Play <br>
 </h1>
 <h4 align="center">Controller USB - midi _ V 1.0.1</h4>
@@ -30,7 +28,6 @@
 <p><em>To do this, do [ ctrl+m ] in Ableton, select effet and push your btn or pot. </em></p>
   <p align="center">🎹 - &#128187; - &#128266;</p>
   <h5 align="center" id="draft" >[Drafting in progress]</h5>
-  <style>#draft{color:#0800ff;} #buy{color: #f64f4f;}</style>
 
 <h2 id="option">Option</h2>
 <p>Refer directly to your plan according to the format of your M&amp;P or you can feed your curiosity</p>
