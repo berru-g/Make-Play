@@ -28,6 +28,7 @@ body {
 
 .navbar {
     width: 100%;
+  height:6em;
     box-shadow: 0 1px 4px #92a1b04f;
     z-index: 10;
     background-color: #1b1b1b;
@@ -75,8 +76,8 @@ body {
 .nav-container .checkbox {
     position: absolute;
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 100px;
+    width: 550px;
     top: 20px;
     left: 20px;
     z-index: 5;
@@ -86,10 +87,10 @@ body {
 
 .nav-container .hamburger-lines {
     display: block;
-    height: 34px;
-    width: 40px;
+    height: 50px;
+    width: 60px;
     position: absolute;
-    top: 17px;
+    top: 20px;
     left: 20px;
     z-index: 2;
     display: flex;
@@ -99,7 +100,7 @@ body {
 
 .nav-container .hamburger-lines .line {
     display: block;
-    height: 4px;
+    height: 6px;
     width: 100%;
     border-radius: 10px;
     background: white;
@@ -124,7 +125,7 @@ body {
     /*    box-shadow: inset 0 0 2000px #ffffff;
 */
     height: 100vh;
-    width: 35%;
+    width: 25%;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -142,15 +143,15 @@ body {
 
 .logo {
     position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: 1.4rem;
+    top: 15px;
+    right: 20px;
+    font-size: 1.6rem;
     color: white;
 }
 
 h6 {
-    letter-spacing: 14px;
-    margin-top: -10px;
+    letter-spacing: 3px;
+    margin-top: 0px;
 }
 
 .nav-container input[type="checkbox"]:checked~.menu-items {
@@ -370,7 +371,7 @@ img {
     margin-bottom: 1.25rem;
     font-weight: 400;
 }
-/* need custom tool ?*/
+/* need custom tool ?-----------------------*/
 .custom-btn {
   margin-left:33%;
   margin-top:20px;
