@@ -370,7 +370,58 @@ img {
     margin-bottom: 1.25rem;
     font-weight: 400;
 }
-
+/* need custom tool ?*/
+.custom-btn {
+  margin-left:33%;
+  margin-top:20px;
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+   cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    font-weight: 400;
+    display: block;
+    width: 33%;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background: #1A1A1A;
+      background: linear-gradient(0deg, #1A1A1A 0%, transparent 100%);
+  overflow: hidden;
+  }
+.custom-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.custom-btn:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.custom-btn:hover{
+  opacity: .7;
+}
+.custom-btn:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
 #software {
     width: 100%;
     display: flex;
