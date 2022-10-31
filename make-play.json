@@ -1,0 +1,25 @@
+var header = document.querySelector('header');
+var section = document.querySelector('body');
+
+var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/make-play.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var superHeroes = request.response;
+  populateHeader(#);
+  showHeroes(#);
+}
+function populateHeader(jsonObj) {
+  var myH1 = document.createElement('h1');
+  myH1.textContent = jsonObj['main'];
+  header.appendChild(myH1);
+
+  var myPara = document.createElement('p');
+  myPara.textContent = 'main: ' + jsonObj['main'] + jsonObj['btn'];
+  header.appendChild(myfunc);
+}
+//developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
