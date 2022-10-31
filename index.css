@@ -170,10 +170,19 @@ h6 {
 }
 
 .nav-container input[type="checkbox"]:checked~.logo {
-    /* display: none;*/
+     color:grey;
+  
 }
 
-
+h5{
+  color: grey;
+  margin-bottom:90%;
+  font-size:0.4em;
+  margin-left: 15px;
+}
+h5:hover{
+  color:white;
+}
 /* -------FIN DU MENU ----------------------------------------------------------------------------*/
 
 #presentation {
@@ -369,7 +378,7 @@ img {
 }
 
 #soft {
-    width: 100px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -396,5 +405,4 @@ primary : {
     hide_border : "true" ,
     } ,
 &custom_title=Github activity&title_color=086788&icon_color=dd1c1a&text_color=06aed5&bg_color=fff1d0&hide_border=true&include_all_commits=true
-
 */
