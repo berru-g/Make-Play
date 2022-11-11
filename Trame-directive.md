@@ -48,29 +48,29 @@
 
     a. [software](#)
     
-    b. [hardware](https://www.fritzing.com)
+    b. [hardware](https://www.easyeda.com)
     
  3. [Design](#)
+    
+    a. Façade aimenté interchengeable
  
  4. Shop
 
 ## Direction marketing
 
-<p>Créer une communauté autour du produits( du concept). Mettre en avant le fait de faire partis d'une communauté. Jouer sur le sentiment d'appartenance à un groupe. Tel que Arduino, Hackster, Tindie...
-Créer un entonnoir de gamification pour fidéliser les clients.</p>
+<p>Le produit est déstiné à la communauté des Maker, tel que Arduino, Hackster, Tindie,
+Créer un entonnoamification pour fidéliser les clients.</p>
 
 <i>**NB:** Ne pas perdre de vue que ce produits à sa niche de passionné déja bien installé et qu'ils finiront par améliorer nos produits les détourner, et se les approprier. Donc... </i>
 
 #### Partir sur un produit dit Hackable 
- - RX et TX accessible
- - FTDI aussi
- - Créer des machines complémentaire (créer un collection)
- - Proposer un façonnage sur mesure ?
+ - UART et SPI accessible 
+ - Shield plug&play aimmenté
+ - Façade aimenté interchangrable
 
 #### Donc, trouver notre réel business model - que vendons nous? 
 - Un produits 
 -  Une histoire
-<p>Question rhétorique, nous **devons** vendre une histoire!!!</p>
 
 <br>
 
@@ -79,7 +79,7 @@ Créer un entonnoir de gamification pour fidéliser les clients.</p>
 #### Nos points faibles:
 - [ ] Nous ne répondons pas à un besoin. Cela existe déja.
 - [ ] Nous n'avons aucune innovation pour nous démarquer du marché existant.
-- [ ] Le marché est saturé.
+- [ ] Le marché est blindé de produit similaire.
 
 #### Nos points fort:
 
