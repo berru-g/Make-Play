@@ -196,11 +196,11 @@ h5:hover{
     letter-spacing: 1px;
     text-transform: capitalize;
     margin: px;
+    font-size:18px;
     background-color: #1b1b1b;
     text-align: justify;
     line-height: 2;
     padding: 2em;
-    font-weight: 400;
     z-index: 1;
 }
 
